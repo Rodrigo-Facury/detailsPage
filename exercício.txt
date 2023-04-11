@@ -1,0 +1,13 @@
+Página principal do e-commerce
+
+Requisitos:
+
+* Header com opções de fazer login ou se cadastrar;
+
+* O header deve conter a logo do e-commerce em questão;
+
+* Campo de busca de produtos;
+
+* Cards dos produtos com imagem, nome e link para página de detalhes do produto específico;
+
+* Footer com detalhes de contato com a empresa vendedora.

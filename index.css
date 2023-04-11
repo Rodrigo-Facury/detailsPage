@@ -1,0 +1,57 @@
+th, td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #595959;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: #0D0D0D;
+}
+
+#details-page {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./grand-siena.jpeg);
+  background-size: cover;
+  color: #FDFDFD;
+}
+
+#details-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 70vh;
+  background-color: #0d0d0df8;
+  padding: 0px 70px;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+#page-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+#go-back {
+  font-size: 19px;
+  color: #85A68E;
+}
+
+#go-to-checkout {
+  background-color: #E6E6E6;
+  color: #0D0D0D;
+  padding: 9px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 17.5px;
+}
