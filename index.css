@@ -1,5 +1,5 @@
 th, td {
-  text-align: left;
+  text-align: center;
   padding: 8px;
   border: 1px solid #595959;
 }
@@ -16,8 +16,9 @@ table {
   margin: 0px;
   align-items: center;
   justify-content: center;
-  background-image: url(./grand-siena.jpeg);
+  background-image: url(./ferrari-daytona-sp3-mini.jpg);
   background-size: cover;
+  background-position-y: center;
   color: #FDFDFD;
 }
 
@@ -26,10 +27,11 @@ table {
   flex-direction: column;
   justify-content: space-around;
   min-height: 70vh;
-  background-color: #0d0d0df8;
+  background-color: #0d0d0dd0;
   padding: 0px 70px;
   padding: 40px;
   border-radius: 15px;
+  width: 30vw;
 }
 
 #page-actions {
