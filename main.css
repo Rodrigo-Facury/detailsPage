@@ -12,12 +12,13 @@ body {
   background-color: #0D0D0D;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 #logo {
   height: 50px;
   padding: 8px 0px;
+  margin-right: auto;
 }
 
 header a {
@@ -26,6 +27,8 @@ header a {
 
 #links-container {
   margin-right: 20px;
+  justify-self: center;
+  margin-left: auto;
 }
 
 #register-link {
@@ -101,12 +104,37 @@ header a {
 
 #search-input {
   border-radius: 8px;
-  /* height: 18px; */
   width: 250px;
   text-indent: 10px;
   font-size: 17px;
+  position: absolute;
+  margin: auto;
 }
 
 #search-input:focus {
   outline: none;
+}
+
+@media only screen and (max-width: 375px) {
+  #footer-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+  }
+
+  #footer-info p {
+    margin: 25px 15px;
+    font-size: 10px;
+  }
+
+  #products {
+    margin: 20px 0px;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: flex-start;
+  }
+
+  #search-input {
+    top: 105px;
+  }
 }
